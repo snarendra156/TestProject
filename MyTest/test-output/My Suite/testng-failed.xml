@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [My Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" parallel="tests" name="MyTest(failed)">
+    <classes>
+      <class name="com.practice.tests.Assignment2">
+        <methods>
+          <include name="readTopURL" invocation-numbers="0"/>
+          <include name="openChrome"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.practice.tests.Assignment2 -->
+    </classes>
+  </test> <!-- MyTest(failed) -->
+</suite> <!-- Failed suite [My Suite] -->
