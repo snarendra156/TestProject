@@ -46,7 +46,7 @@ public class Assignment2 extends BaseClass{
 		logger.info("Enter text to search");
 		gsp.enterSerachText(keyword);
 		gsp.occurrencesOfString(keyword);
-		//gsp.openSearchURL(requiredNoOfresults);
+		gsp.openSearchURL(requiredNoOfresults);
 		
     }
 
